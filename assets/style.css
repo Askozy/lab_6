@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino-BoldItalic.eot');
+    src: local('../fonts/Palatino Bold Italic'), local('Palatino-BoldItalic'),
+        url('../fonts/Palatino-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Palatino-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Palatino-BoldItalic.woff') format('woff'),
+        url('../fonts/Palatino-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino-Bold.eot');
+    src: local('../fonts/Palatino Bold'), local('Palatino-Bold'),
+        url('../fonts/Palatino-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Palatino-Bold.woff2') format('woff2'),
+        url('../fonts/Palatino-Bold.woff') format('woff'),
+        url('../fonts/Palatino-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Palatino';
+}
+
+
+.header {
+	position: relative;
+	width: 100%; 
+    margin-bottom: 12%;
+}
+h2 {
+	position: absolute;
+	top	: 87%;
+	padding-left: 5%;
+	width: 100%;
+}
+.fin1 {
+    width: 100%;
+    padding-bottom: 3%;
+    
+}
+.txt_nz {
+    font-size: 30px;
+    padding-bottom: 5%;
+    
+}
+.nz {
+    font-size: 40px;
+}
+.img2 {
+    padding-bottom: 3%;
+    width: 100%; 
+}
+.txt_2 {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+.txt_3 {
+    text-align: center;
+    font-size: 30px;
+    
+    padding: 5% 5% 0;
+}
+.images {
+    width: 310px;
+    height: 300px;
+ }
+ .container {
+    padding-bottom: 50px;
+ }
+
+.slid {
+    height: 300px;
+}
+/*form**********************************/
+.lable1{
+    margin: 0 auto;
+    width:250px;
+    
+    }
+    
+    
+    .post{
+    margin:10px 0;
+    font-size: 15px;
+    
+    
+    }
+    *, *:before, *:after {
+        box-sizing: border-box;
+      }
+      .data1 {
+        border: 2px solid #eee;
+     }
+     .data1 {font-size: 17PX;
+        padding:10px;
+        border:0;
+        padding:10px;
+        border-radius:10px;
+        box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.096);
+      }
+     
+      textarea {
+        width:100%;
+        resize: vertical;
+        padding:15px;
+        border-radius:15px;
+        border:0;
+        box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.096);
+        height:150px;
+      }
+      .post1 {
+        appearance:none;
+        -webkit-appearance:none;
+    
+        padding:10px;
+        border:none;
+        background-color:#3F51B5;
+        color:#fff;
+        font-weight:600;
+        border-radius:5px;
+        width:100%;
+        transition: background .2s linear, color .2s linear;
+      }
+      .post1:hover {
+          background-color: #243594;
+          
+      }
